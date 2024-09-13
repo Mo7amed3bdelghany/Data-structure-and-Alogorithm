@@ -1,4 +1,8 @@
 ## <p style="color: rgb(255, 191, 0)" >Medium</p>
+
+<img align ="right" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3Y1enlhaml5aXQzc2Q3NjA4OTZ3aXhpa2xoanJ3cmhyaTNnNnpmNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9xijGdDIMovchalhxN/giphy.webp" width="250"/>
+
+
   - [189. Rotate Array](https://leetcode.com/problems/rotate-array/solutions/5781389/very-simple-code-modular-arithmetic)
   
   - [1310. XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/solutions/5781217/best-way-simple-code)
