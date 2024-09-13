@@ -15,6 +15,8 @@
 - Linear
 - Non-Linear
 
+![Screenshot 2024-09-13 233011 jpg](https://github.com/user-attachments/assets/23017e2b-237b-46db-89df-94aa6c1206ad)
+
 - [ ] Linear Data Structures :
   
     - **Array:** A collection of elements of the same type stored in contiguous memory locations.
@@ -47,6 +49,9 @@
 ## Algorithms 
 *Algorithms* are step-by-step procedures designed to perform a specific task or solve a particular problem or perform computations.  
 Here are some common algorithms you should be familiar with:    
+
+![Screenshot 2024-09-13 233156 jpg](https://github.com/user-attachments/assets/68df9824-ad9f-472f-a745-b9217d91ed44)
+
 - **Sorting:** Methods like Quick Sort, Merge Sort, and Bubble Sort that rearrange elements in a specific order.
   
 - **Searching:** Techniques like Binary Search and Linear Search used to find elements within a data structure.
