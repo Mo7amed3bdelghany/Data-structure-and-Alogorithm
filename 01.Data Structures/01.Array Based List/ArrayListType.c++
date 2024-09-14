@@ -3,9 +3,10 @@
 using namespace std;
 int main()
 {
-    ArrayADT<int>arr={5,8,4,1,9,0,10,8,12,7,8,4,3,2,1,1,8,9,2,2,0,4,3,8,3};
-    
-    cout << "Tha whole list: ";
+    ArrayADT<int>arr = {5,8,4,1,9,0,10,8,12,7,8,4,3,2,1,1,8,9,2,2,0,4,3,8,3};
+    ArrayADT<int>arr2 = arr;
+
+    cout << "Tha whole list1: ";
     arr.print();
     cout<<"Tha list from postion 4 to 22 is: ";
     arr.partition(4, arr.Getlength()-3);
@@ -80,6 +81,8 @@ int main()
             arr.print();
             cout << '\n';
 
+                cout << "Tha whole list2: ";
+                arr2.print();
 
     return 0;
 }

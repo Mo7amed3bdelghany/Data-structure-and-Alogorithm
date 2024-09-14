@@ -14,6 +14,9 @@ public:
     ArrayADT(int);
     ArrayADT(initializer_list<T> elements);
     ArrayADT(ArrayADT<T> &copy);
+    const ArrayADT<T>& operator=(const ArrayADT<T> &);
+
+    ~ArrayADT();
 
     T max();
     T min();
@@ -47,12 +50,14 @@ public:
     {
         MaxSize = 0, length = 0;
         list = new T[MaxSize];
+        assert(list != NULL); // if unable to allocate memory space, terminate the program.
     }
     template <class T>
     ArrayADT<T>::ArrayADT(int size)
     {
         MaxSize = size, length = 0;
         list = new T[MaxSize];
+        assert(list != NULL); // if unable to allocate memory space, terminate the program.
     }
 
     template <class T>
@@ -61,10 +66,11 @@ public:
         MaxSize = elements.size();
         length = MaxSize;
         list = new T[MaxSize];
+        assert(list != NULL); // if unable to allocate memory space, terminate the program.
+        
         int i = 0;
-        for (auto it : elements)
-        {
-            list[i++] = it;
+        for(auto it:elements){
+            list[i++]=it;
         }
     }
 
@@ -74,10 +80,34 @@ public:
         MaxSize = copy.MaxSize;
         length = copy.length;
         list = new T[MaxSize];
-        int i = 0;
-        for(auto it:copy){
-            list[i++]=it;
+        assert(list != NULL); // if unable to allocate memory space, terminate the program.
+
+        for(int i = 0; i<length;i++){
+            list[i] = copy.list[i];
         }
+        
+    }
+
+    template <class T>
+    const ArrayADT<T>& ArrayADT<T>::operator=(const ArrayADT<T>& copy){
+        if (this != &copy){
+            delete []list;
+            MaxSize = copy.MaxSize;
+            length = copy.length;
+            list = new T[MaxSize];
+            assert(list != NULL); // if unable to allocate memory space, terminate the program.
+
+            for(int i=0;i<length;i++){
+                list[i] = copy.list[i];
+            }
+        }
+        return *this;
+    }
+
+
+    template <class T>
+    ArrayADT<T>::~ArrayADT(){
+        delete[] list;
     }
     template <class T>
     T ArrayADT<T>::max()
