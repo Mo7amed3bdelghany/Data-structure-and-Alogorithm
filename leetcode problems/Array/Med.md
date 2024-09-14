@@ -14,3 +14,5 @@
   - [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/solutions/5747901/easy-and-simple-solution-in-c-using-map)
 
   - [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/solutions/5783031/my-simple-solution)
+
+  - [2419. Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/solutions/5785330/my-simple-solution)
