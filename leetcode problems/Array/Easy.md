@@ -8,3 +8,5 @@
   - [1684. Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/solutions/5783005/my-simple-code)
 
   - [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/solutions/5767872/my-simple-code-in-c-binary-search)
+
+  - [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/solutions/5790235/simple-code-gcd)

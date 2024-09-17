@@ -16,3 +16,7 @@
   - [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/solutions/5783031/my-simple-solution)
 
   - [2419. Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/solutions/5785330/my-simple-solution)
+
+  - [539. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/solutions/5794777/very-simple-code-24-hours-60)
+
+  - [2447. Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/solutions/5790503/my-simple-code-gcd)
