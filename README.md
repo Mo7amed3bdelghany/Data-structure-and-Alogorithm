@@ -56,9 +56,14 @@ Here are some common algorithms you should be familiar with:
   
 - **Searching:** Techniques like Binary Search and Linear Search used to find elements within a data structure.
 - **Recursion:** A technique where a function calls itself to solve a smaller instance of the same problem.
-- **Dynamic Programming:** Solving problems by breaking them down into smaller subproblems.
-- **Greedy Algorithms:** Making locally optimal choices at each step.
-- **Divide and Conquer:** Solving problems by breaking them down into smaller subproblems.
+- **Dynamic Programming:** Dynamic Programming is a *bottom-up* approach we solve all possible small problems and then combine them to obtain solutions for bigger problems
+
+- **Greedy Algorithms:** Greedy method is used to solve the optimization problem. An optimization problem is one in which we are given a set of input values, which are required either to be maximized or minimized (known as objective), i.e. some constraints or conditions.
+- **Divide and Conquer:** It is a *top-down* approach. The algorithms which follow the divide & conquer techniques involve three steps:
+   * Divide the original problem into a set of subproblems.
+   * Solve every subproblem individually, recursively.
+   * Combine the solution of the subproblems (top level) into a solution of the whole original problem.
+
 - **Brute Force:** Solving problems by trying all possible solutions.
 - **Bit Manipulation:** Algorithmically manipulating bits or binary digits.
 - **Graph Algorithms:** Solving problems on graphs such as Dijkstra’s for finding the shortest path in a graph.
@@ -72,6 +77,11 @@ Here are some common algorithms you should be familiar with:
 ### Importance of Algorithms
 
 Algorithms are fundamental to computer science and programming, as they provide the blueprint for solving problems efficiently and effectively. They are essential for tasks ranging from simple calculations to complex data processing in software applications.  
+
+### Is this algorithm good?
+1. correct
+2. Efficient (Time, Space Complexity)
+3. Easy to implement
 
 ## Introduction to Time Complexity
 ### What is Time Complexity?
